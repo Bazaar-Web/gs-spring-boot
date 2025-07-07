@@ -21,6 +21,8 @@ dependencies {
 	// tag::tests[]
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 	// end::tests[]
+
+	implementation("com.openai:openai-java:2.12.0")
 }
 
 test {
